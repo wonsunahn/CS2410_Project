@@ -9,11 +9,14 @@
 #include <sys/types.h>
 #include <vector>
 
-#ifndef RV32SIM_SIMULATOR_H
-#	define RV32SIM_SIMULATOR_H
+#include "json.hpp"
+using namespace nlohmann::literals;
 
-#	define MAX_MEM_SIZE 1024
-#	define NUM_PHYS_REG 32
+#ifndef SIMULATOR_H
+#define SIMULATOR_H
+
+#define MAX_MEM_SIZE 1024
+#define NUM_PHYS_REG 32
 
 struct config
 {
@@ -86,4 +89,4 @@ public:
 	void printStats();
 };
 
-#endif // RV32SIM_SIMULATOR_H
+#endif // SIMULATOR_H
