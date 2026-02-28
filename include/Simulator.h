@@ -87,6 +87,12 @@ public:
 	 */
 	void dump(int argc...);
 	void printStats();
+
+	/**
+	 * @brief Serialize the simulator state to a JSON file
+	 * @param output Pointer to ofstream object where the serialized data is written
+	 */
+	void serializeJSON(std::ofstream* output);
 };
 
 #endif // SIMULATOR_H

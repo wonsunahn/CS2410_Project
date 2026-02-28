@@ -23,9 +23,9 @@ $(OBJ_DIR):
 	mkdir -p $@
 
 run: $(EXE)
-	./$(EXE) ./examples/prog.dat config/baseline.cfg
+	./$(EXE) -d -p ./programs/prog.dat -c configs/baseline.cfg -j results.json
 
 -include $(OBJ:.o=.d)
 
 clean:
-	@$(RM) -rv $(OBJ_DIR) $(EXE)
+	@$(RM) -rv $(OBJ_DIR) $(EXE) results.json
