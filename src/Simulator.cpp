@@ -3,7 +3,7 @@
 #include <iostream>
 #include <map>
 
-Simulator::Simulator(std::ifstream* program, struct config c)
+Simulator::Simulator(std::ifstream* program, Config *c)
 {
 }
 

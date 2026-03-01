@@ -9,7 +9,7 @@
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/sim",
-            "args": ["-d", "-c", "${workspaceFolder}/configs/baseline.cfg", "-p", "${workspaceFolder}/programs/prog.dat", "-j", "${workspaceFolder}/results.json"],
+            "args": ["-d", "-c", "${workspaceFolder}/configs/2-wide.cfg", "-p", "${workspaceFolder}/programs/prog-noloop.dat", "-j", "${workspaceFolder}/outputs/prog-noloop.2-wide.json"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],

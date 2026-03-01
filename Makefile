@@ -38,8 +38,8 @@ $(foreach program,$(PROGRAMS),$(foreach conf, $(CONFS), $(eval $(call run_rules,
 
 define diff_rules
 diffs/$(1:programs/%.dat=%).$(2:configs/%.cfg=%).diff: outputs/$(1:programs/%.dat=%).$(2:configs/%.cfg=%).out
-	@echo "Running diff -dwy -W 170 $$< outputs_solution/$(1:programs/%.dat=%).$(2:configs/%.cfg=%).out > $$@"
-	-@diff -dwy -W 170 $$< outputs_solution/$(1:programs/%.dat=%).$(2:configs/%.cfg=%).out > $$@
+	@echo "Running diff -dw $$< outputs_solution/$(1:programs/%.dat=%).$(2:configs/%.cfg=%).out > $$@"
+	-@diff -dw $$< outputs_solution/$(1:programs/%.dat=%).$(2:configs/%.cfg=%).out > $$@
 endef
 $(foreach program,$(PROGRAMS),$(foreach conf, $(CONFS), $(eval $(call diff_rules,$(program),$(conf)))))
 

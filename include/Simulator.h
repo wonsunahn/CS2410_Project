@@ -9,6 +9,7 @@
 #include <sys/types.h>
 #include <vector>
 
+#include "Config.h"
 #include "json.hpp"
 using namespace nlohmann::literals;
 
@@ -54,7 +55,7 @@ public:
 	/**
 	 * @brief Simulator Configuration
 	 */
-	struct config configuration;
+	Config *configuration;
 
 	/**
 	 * @brief Data Memory ($D Cache)
@@ -76,14 +77,14 @@ public:
 	 * @param program Pointer to ifstream object containing the program
 	 * @param c Configuration struct
 	 */
-	Simulator(std::ifstream* program, struct config c);
+	Simulator(std::ifstream* program, Config *c);
 
 	/**
 	 * @brief Debugging function
 	 * @param argc Number of arguments excluding argc
 	 * @param ... Variable arguments - see enum debugArg
 	 * 
-	 * @example this->debug(1, DEBUG_ALL);
+	 * @example this->dump(1, DEBUG_ALL);
 	 */
 	void dump(int argc...);
 	void printStats();

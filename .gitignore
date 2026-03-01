@@ -34,8 +34,11 @@
 
 # Executables
 *.exe
-*.out
 *.app
 
 # debug information files
 *.dwo
+
+# Simulator outputs
+outputs/*
+diffs/*
