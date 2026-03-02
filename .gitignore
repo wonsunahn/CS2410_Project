@@ -1,3 +1,7 @@
+# MacOS
+.DS_Store
+cmake-build-debug
+
 # Prerequisites
 *.d
 
@@ -10,12 +14,6 @@
 # Precompiled Headers
 *.gch
 *.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
 
 # Compiled Dynamic libraries
 *.so
@@ -33,12 +31,8 @@
 *.lib
 
 # Executables
-*.exe
-*.app
+sim
 
-# debug information files
-*.dwo
-
-# Simulator outputs
+# Simulator output files
 outputs/*
 diffs/*

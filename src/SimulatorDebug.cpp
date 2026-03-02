@@ -20,7 +20,7 @@ void dumpDataMemory(double* dataMemory)
 	}
 }
 
-void dumpRegisters(registerFileEntry* registers, std::map<virtualRegister, int> registerMapTable)
+void dumpRegisters(RegisterFileEntry* registers, std::map<ArchitecturalRegister, int> registerMapTable)
 {
 
 	std::cout
@@ -33,11 +33,11 @@ void dumpRegisters(registerFileEntry* registers, std::map<virtualRegister, int> 
 	{
 		switch(v.first.type)
 		{
-		case virtualRegister::R:
+		case ArchitecturalRegister::R:
 			std::cout << "\tR" << v.first.num << " -> $" << v.second << " = "
 					  << registers[v.second].value << std::endl;
 			break;
-		case virtualRegister::F:
+		case ArchitecturalRegister::F:
 			std::cout << "\tF" << v.first.num << " -> $" << v.second << " = "
 					  << registers[v.second].value << std::endl;
 			break;
@@ -67,7 +67,7 @@ void Simulator::dump(int argc...)
 	while(argc > 0)
 	{
 		argc--;
-		enum debugArg arg = (enum debugArg)va_arg(args, int);
+		enum DebugArg arg = (enum DebugArg)va_arg(args, int);
 		switch(arg)
 		{
 		case DEBUG_DCACHE:

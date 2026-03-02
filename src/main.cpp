@@ -75,7 +75,43 @@ int main(int argc, char *argv[])
 	Simulator *sim = new Simulator(&program, config);
 
 	// Run the simulator until completion
-	// TODO: FIll in.
+	
+	/* TODO: Replace the hardcoded state with the actual simulation loop that executes instructions until the program is complete.
+	 *       The loop should look something like this:
+	 *       while (simulation not complete) {
+	 *           // Simulate fetch, decode, execute, and commit stages, updating the simulator state accordingly.
+	 *       }
+	 */
+
+	// For testing purposes, I've hardcoded the state of the CPU after executing prog-noloop.dat.
+	// Data memory values stored by the program
+	sim->dataMemory[0] = 111;
+	sim->dataMemory[8] = 14;
+	sim->dataMemory[16] = 5;
+	sim->dataMemory[24] = 10;
+	sim->dataMemory[100] = 2;
+	sim->dataMemory[108] = 27;
+	sim->dataMemory[116] = 3;
+	sim->dataMemory[124] = 128;
+	sim->dataMemory[200] = 12;
+	// Architectural registers mapped to physical registers
+	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::R, 0}] = 0;
+	sim->registerFile[0].value = 0;
+	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::R, 1}] = 8;
+	sim->registerFile[8].value = 16;
+	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::R, 2}] = 9;
+	sim->registerFile[9].value = 116;
+	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::F, 0}] = 7;
+	sim->registerFile[7].value = 128;
+	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::F, 2}] = 3;
+	sim->registerFile[3].value = 12;
+	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::F, 4}] = 6;
+	sim->registerFile[6].value = 8;
+	// Physical registers that were used but are not currently mapped to any architectural register
+	sim->registerFile[1].value = 24;
+	sim->registerFile[2].value = 124;
+	sim->registerFile[4].value = 10;
+	sim->registerFile[5].value = 120;
 
 	// Print out simulation results and statistics
 	std::cout << "Simulation complete!" << std::endl;
