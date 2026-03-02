@@ -95,23 +95,21 @@ int main(int argc, char *argv[])
 	sim->dataMemory[124] = 128;
 	sim->dataMemory[200] = 12;
 	// Architectural registers mapped to physical registers
-	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::R, 0}] = 0;
-	sim->registerFile[0].value = 0;
-	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::R, 1}] = 8;
-	sim->registerFile[8].value = 16;
-	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::R, 2}] = 9;
-	sim->registerFile[9].value = 116;
-	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::F, 0}] = 7;
-	sim->registerFile[7].value = 128;
-	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::F, 2}] = 3;
-	sim->registerFile[3].value = 12;
-	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::F, 4}] = 6;
-	sim->registerFile[6].value = 8;
+	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::X, 1}] = 7;
+	sim->registerFile[7].value = 16;
+	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::X, 2}] = 8;
+	sim->registerFile[8].value = 116;
+	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::F, 0}] = 6;
+	sim->registerFile[6].value = 128;
+	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::F, 2}] = 2;
+	sim->registerFile[2].value = 12;
+	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::F, 4}] = 5;
+	sim->registerFile[5].value = 8;
 	// Physical registers that were used but are not currently mapped to any architectural register
-	sim->registerFile[1].value = 24;
-	sim->registerFile[2].value = 124;
-	sim->registerFile[4].value = 10;
-	sim->registerFile[5].value = 120;
+	sim->registerFile[0].value = 24;
+	sim->registerFile[1].value = 124;
+	sim->registerFile[3].value = 10;
+	sim->registerFile[4].value = 120;
 
 	// Print out simulation results and statistics
 	std::cout << "Simulation complete!" << std::endl;

@@ -10,13 +10,13 @@
 124, 8
 200, 12
 %%
-addi R1, R0, 24
-addi R2, R0, 124
-fld F2, 200(R0)
-fld F0, 0(R1)
+addi X1, X0, 24
+addi X2, X0, 124
+fld F2, 200(X0)
+fld F0, 0(X1)
 fmul F0, F0, F2
-fld F4, 0(R2)
+fld F4, 0(X2)
 fadd F0, F0, F4
-fsd F0, 0(R2)
-addi R1, R1, -8
-addi R2, R2, -8
+fsd F0, 0(X2)
+addi X1, X1, -8
+addi X2, X2, -8

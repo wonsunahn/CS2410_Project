@@ -1,6 +1,6 @@
 Simulation complete!
 Total CCs: 13
-RS Stalls: 1
+RS Stalls: 0
 ROB Stalls: 0
 Data Cache
 	Address	Value
@@ -16,24 +16,23 @@ Data Cache
 Register Mapping
 Note: only registers that are written to (at least once) are shown.
 For registers used only as operands (not written to), assume they are mapped to register with value = 0.
-	R0 -> $0 = 0
-	R1 -> $8 = 16
-	R2 -> $9 = 116
-	F0 -> $7 = 128
-	F2 -> $3 = 12
-	F4 -> $6 = 8
+	X1 -> $7 = 16
+	X2 -> $8 = 116
+	F0 -> $6 = 128
+	F2 -> $2 = 12
+	F4 -> $5 = 8
 =========Physical Registers=========
 	Register ,  Value
-	0          0    
-	1          24   
-	2          124  
-	3          12   
-	4          10   
-	5          120  
-	6          8    
-	7          128  
-	8          16   
-	9          116  
+	0          24   
+	1          124  
+	2          12   
+	3          10   
+	4          120  
+	5          8    
+	6          128  
+	7          16   
+	8          116  
+	9          0    
 	10         0    
 	11         0    
 	12         0    

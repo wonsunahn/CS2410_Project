@@ -18,6 +18,7 @@ using namespace nlohmann::literals;
 
 #define MAX_MEM_SIZE 1024
 #define NUM_PHYS_REG 32
+#define NUM_PHYS_REG_INCLUDING_X0 NUM_PHYS_REG + 1 // We will use the last register as a "dummy" register to represent the value of X0, which is always 0
 
 enum DebugArg
 {
@@ -29,7 +30,7 @@ struct ArchitecturalRegister
 {
 	enum
 	{
-		R,
+		X,
 		F
 	} type;
 	int32_t num;
@@ -64,7 +65,7 @@ public:
 	 * @note This is a map of physical register number -> value
 	 * @note For bookkeeping, we also store the ROB number and whether the register is busy
 	 */
-	RegisterFileEntry registerFile[NUM_PHYS_REG];
+	RegisterFileEntry registerFile[NUM_PHYS_REG_INCLUDING_X0];
 	std::map<ArchitecturalRegister, int> registerMapTable;
 
 	// *PUBLIC --------------------

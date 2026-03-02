@@ -6,8 +6,8 @@ SRC := $(wildcard $(SRC_DIR)/*.cpp)
 OBJ := $(SRC:$(SRC_DIR)/%.cpp=$(OBJ_DIR)/%.o)
 # Compiler Settings
 CC := g++
-CFLAGS := -g -c -Wall -Wextra -std=c++11 -Iinclude/ `pkg-config --cflags glib-2.0`
-LIBS := `pkg-config --libs glib-2.0`
+CFLAGS := -fsanitize=address -g -c -Wall -Wextra -std=c++11 -Iinclude/ `pkg-config --cflags glib-2.0`
+LIBS := -fsanitize=address `pkg-config --libs glib-2.0`
 
 CONFS = $(wildcard configs/*.cfg)
 PROGRAMS = $(wildcard programs/*.dat)
@@ -32,7 +32,7 @@ run: $(OUTPUTS) $(OUTPUTS_SOLUTION) $(DIFFS)
 define run_rules
 outputs/$(1:programs/%.dat=%).$(2:configs/%.cfg=%).out: $(EXE) $(1) $(2)
 	@echo "Running ./$(EXE) -p $(1) -c $(2) -j outputs/$(1:programs/%.dat=%).$(2:configs/%.cfg=%).json -d > $$@"
-	-@./$(EXE) -p $(1) -c $(2) -j outputs/$(1:programs/%.dat=%).$(2:configs/%.cfg=%).json -d > $$@
+	-@./$(EXE) -p $(1) -c $(2) -j outputs/$(1:programs/%.dat=%).$(2:configs/%.cfg=%).json -d > $$@ 2>&1
 endef
 $(foreach program,$(PROGRAMS),$(foreach conf, $(CONFS), $(eval $(call run_rules,$(program),$(conf)))))
 
