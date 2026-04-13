@@ -1,12 +1,12 @@
 Simulation complete!
 Total CCs: 29
-RS Stalls: 0
-ROB Stalls: 4
+RS Stalls: 1
+ROB Stalls: 5
 Data Cache
 	Address	Value
 Register Mapping
 	X0 -> $ZERO = 0
-	X1 -> $5 = 100
+	X1 -> $5 = 120
 	X2 -> $1 = 5
 	X3 -> $4 = 5
 	X4 -> $3 = 4
@@ -21,29 +21,29 @@ Register Mapping
 	2          0    
 	3          4    
 	4          5    
-	5          100  
+	5          120  
 	6          0    
 	7          0    
 	8          0    
-	9          100  
+	9          104  
 	10         0    
 	11         1    
 	12         1    
 	13         0    
 	14         0    
-	15         100  
+	15         108  
 	16         0    
 	17         2    
 	18         1    
 	19         0    
 	20         0    
-	21         100  
+	21         112  
 	22         0    
 	23         3    
 	24         1    
 	25         0    
 	26         0    
-	27         100  
+	27         116  
 	28         0    
 	29         4    
 	30         1    

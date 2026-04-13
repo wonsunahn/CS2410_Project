@@ -75,6 +75,7 @@ Reorder Buffer
 	14   false       0     nop 
 	15   false       0     nop 
 Register Mapping
+	X0 -> $ZERO = 0
 Clock Cycle: 2
  PC: 16 ================================================
 Fetch Queue
