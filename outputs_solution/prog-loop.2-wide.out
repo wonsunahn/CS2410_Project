@@ -1,7 +1,7 @@
 Simulation complete!
-Total CCs: 32
-RS Stalls: 2
-ROB Stalls: 2
+Total CCs: 26
+RS Stalls: 0
+ROB Stalls: 0
 Data Cache
 	Address	Value
 	0:	111
@@ -14,8 +14,7 @@ Data Cache
 	124:	128
 	200:	12
 Register Mapping
-Note: only registers that are written to (at least once) are shown.
-For registers used only as operands (not written to), assume they are mapped to register with value = 0.
+	X0 -> $ZERO = 0
 	X1 -> $19 = 0
 	X2 -> $20 = 100
 	F0 -> $18 = 195

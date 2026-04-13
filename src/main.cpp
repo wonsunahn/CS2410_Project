@@ -16,7 +16,6 @@ void print_usage_info()
 
 int main(int argc, char *argv[])
 {
-	bool debug = false;
 	char *program_file_name = NULL;
 	char *config_file_name = NULL;
 	char *json_file_name = NULL;

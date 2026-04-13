@@ -22,44 +22,44 @@ void dumpDataMemory(double *dataMemory)
 
 void dumpRegisters(RegisterFileEntry *registers, std::map<ArchitecturalRegister, int> registerMapTable)
 {
+	// std::cout
+	// 	<< "Register Mapping\nNote: only registers that are written to (at least once) are shown."
+	// 	<< "\nFor registers used only as operands (not written to), assume they are mapped to "
+	// 	   "register with value = 0."
+	// 	<< std::endl;
 
-	std::cout
-		<< "Register Mapping\nNote: only registers that are written to (at least once) are shown."
-		<< "\nFor registers used only as operands (not written to), assume they are mapped to "
-		   "register with value = 0."
-		<< std::endl;
-
+	std::cout << "Register Mapping" << std::endl;
 	for (auto &v : registerMapTable)
 	{
 		switch (v.first.type)
 		{
 		case ArchitecturalRegister::X:
-			if (v.first.num != 0)
-			{
-				std::cout << "\tX" << v.first.num << " -> $" << v.second << " = "
-						  << registers[v.second].value << std::endl;
-			}
-			else
-			{
-				assert(v.second == NUM_PHYS_REG); // Architectural register X0 should always be mapped to the last physical register, which has value 0.
-			}
+			std::cout << "\tX" << v.first.num << " -> " << getPRegName(v.second) << " = "
+					  << registers[v.second].value << std::endl;
 			break;
 		case ArchitecturalRegister::F:
-			std::cout << "\tF" << v.first.num << " -> $" << v.second << " = "
+			std::cout << "\tF" << v.first.num << " -> " << getPRegName(v.second) << " = "
 					  << registers[v.second].value << std::endl;
 			break;
 		}
 	}
-	std::cout << "=========Physical Registers=========" << std::endl;
-	std::cout << "\tRegister ,  Value" << std::endl;
-	std::cout << std::boolalpha;
-	for (int i = 0; i < NUM_PHYS_REG; i++)
+
+	if (debug)
 	{
-		std::cout << "\t";
-		printElement(i, 10);
-		std::cout << " ";
-		printElement(registers[i].value, 5);
-		std::cout << std::endl;
+		std::cout << "=========Physical Registers=========" << std::endl;
+		std::cout << "\tRegister ,  Value" << std::endl;
+		std::cout << std::boolalpha;
+		for (int i = 0; i < NUM_PHYS_REG; i++)
+		{
+			std::cout << "\t";
+			printElement(i, 10);
+			// printElement(registers[i].busy, 6);
+			// std::cout << " ";
+			// printElement(registers[i].ROBNum, 5);
+			std::cout << " ";
+			printElement(registers[i].value, 5);
+			std::cout << std::endl;
+		}
 	}
 }
 

@@ -14,8 +14,7 @@ Data Cache
 	124:	128
 	200:	12
 Register Mapping
-Note: only registers that are written to (at least once) are shown.
-For registers used only as operands (not written to), assume they are mapped to register with value = 0.
+	X0 -> $ZERO = 0
 	X1 -> $7 = 16
 	X2 -> $8 = 116
 	F0 -> $6 = 128
