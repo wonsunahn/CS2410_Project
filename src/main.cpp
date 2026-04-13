@@ -73,6 +73,10 @@ int main(int argc, char *argv[])
 
 	Simulator *sim = new Simulator(&program, config);
 
+	// Set up hard coded X0 "Zero" register with value 0.
+	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::X, 0}] = NUM_PHYS_REG;
+	sim->registerFile[NUM_PHYS_REG].value = 0;
+
 	// Run the simulator until completion
 	
 	/* TODO: Replace the hardcoded state with the actual simulation loop that executes instructions until the program is complete.
