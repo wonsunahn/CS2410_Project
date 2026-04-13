@@ -9,6 +9,13 @@ void printElement(T t, const int &width)
 	std::cout << std::left << std::setw(width) << std::setfill(' ') << t;
 }
 
+std::string getPRegName(int regNum)
+{
+	if (regNum == NUM_PHYS_REG)
+		return "$ZERO";
+	return "$" + std::to_string(regNum);
+}
+
 void dumpDataMemory(double *dataMemory)
 {
 	std::cout << "Data Cache\n";
