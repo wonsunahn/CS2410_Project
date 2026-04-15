@@ -70,7 +70,6 @@ void XLSXEventLogger::logFetchedInstruction(int sequence, int pc, const std::str
 		return;
 
 	ensureInstructionRow(sequence, pc, instruction);
-	markStage(sequence, "IF");
 }
 
 void XLSXEventLogger::markStage(int sequence, const std::string& stage)

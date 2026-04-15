@@ -1,6 +1,9 @@
 #include "Simulator.h"
+#include "XLSXEventLogger.h"
+#include <cstdlib>
 #include <fstream>
 #include <iostream>
+#include <string>
 #include <bits/getopt_core.h>
 
 void print_usage_info()
@@ -12,6 +15,7 @@ void print_usage_info()
 	printf("  -c file      [Required] uses file as configuration file.\n");
 	printf("  -p file      [Required] uses file as program file.\n");
 	printf("  -j file      [Optional] uses file as JSON output file.\n");
+	printf("  -x file      [Optional] uses file as XLSX output file.\n");
 }
 
 int main(int argc, char *argv[])
@@ -19,8 +23,10 @@ int main(int argc, char *argv[])
 	char *program_file_name = NULL;
 	char *config_file_name = NULL;
 	char *json_file_name = NULL;
+	char *excel_file_name = NULL;
 	char c;
-	while ((c = getopt(argc, argv, "hdc:p:j:")) != -1)
+	
+	while ((c = getopt(argc, argv, "hvdc:p:j:x:")) != -1)
 	{
 		switch (c)
 		{
@@ -39,8 +45,11 @@ int main(int argc, char *argv[])
 		case 'j':
 			json_file_name = optarg;
 			break;
+		case 'x':
+			excel_file_name = optarg;
+			break;
 		case '?':
-			if (optopt == 'j' || optopt == 'c' || optopt == 'p')
+			if (optopt == 'j' || optopt == 'c' || optopt == 'p' || optopt == 'x')
 				fprintf(stderr, "Option -%c requires an argument.\n", optopt);
 			else if (isprint(optopt))
 				fprintf(stderr, "Unknown option `-%c'.\n", optopt);
@@ -77,14 +86,32 @@ int main(int argc, char *argv[])
 	sim->registerMapTable[ArchitecturalRegister{ArchitecturalRegister::X, 0}] = NUM_PHYS_REG;
 	sim->registerFile[NUM_PHYS_REG].value = 0;
 
+	XLSXEventLogger *xlsx_logger = NULL;
+	if (excel_file_name != NULL)
+		xlsx_logger = new XLSXEventLogger(excel_file_name);
+	
+
 	// Run the simulator until completion
 	
-	/* TODO: Replace the hardcoded state with the actual simulation loop that executes instructions until the program is complete.
+	/* TODO: Replace the hardcoded state with the actual simulation loop that executes
+	 *       instructions until the program icomplete.
 	 *       The loop should look something like this:
 	 *       while (simulation not complete) {
 	 *           // Simulate fetch, decode, execute, and commit stages, updating the simulator state accordingly.
 	 *       }
 	 */
+	if (xlsx_logger)
+	{
+		xlsx_logger->startCycle();
+		xlsx_logger->logFetchedInstruction(1, 0, "addi X1, X0, 24");
+		xlsx_logger->markStage(1, "IF");
+		xlsx_logger->startCycle();
+		xlsx_logger->markStage(1, "ID");
+		xlsx_logger->startCycle();
+		xlsx_logger->markStage(1, "IS/EX");
+		xlsx_logger->startCycle();
+		xlsx_logger->markStage(1, "WB/CT");
+	}
 
 	// For testing purposes, I've hardcoded the state of the CPU after executing prog-noloop.dat.
 	// Data memory values stored by the program
@@ -129,6 +156,11 @@ int main(int argc, char *argv[])
 		}
 		sim->serializeJSON(&json_output);
 		json_output.close();
+	}
+	if (xlsx_logger)
+	{
+		xlsx_logger->close();
+		delete xlsx_logger;
 	}
 	delete sim;
 
