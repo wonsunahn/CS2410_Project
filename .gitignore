@@ -37,3 +37,4 @@ sim
 outputs/*
 diffs/*
 build/
+outputs_xlsx/
