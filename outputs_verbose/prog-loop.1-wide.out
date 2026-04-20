@@ -44,9 +44,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -91,9 +89,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -139,9 +135,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -188,9 +182,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -238,9 +230,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -289,9 +279,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -340,9 +328,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	true 	4               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -392,9 +378,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	true 	3               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -444,9 +428,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	true 	2               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -496,9 +478,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	true 	1               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -548,13 +528,11 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	0               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
-	HEAD:	6	TAIL:	9
+	HEAD:	5	TAIL:	9
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    24    addi
 	1    false X2    124   addi
@@ -578,7 +556,7 @@ Register Mapping
 	X2 -> $8 = 0
 	F0 -> $6 = 0
 	F2 -> $2 = 12
-	F4 -> $5 = 8
+	F4 -> $5 = 0
 Clock Cycle: 12
  PC: -1 ================================================
 Fetch Queue
@@ -599,9 +577,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	0               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -649,9 +625,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	0               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -699,9 +673,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	0               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	1               fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -750,13 +722,11 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	0               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	0               fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
-	HEAD:	11	TAIL:	11
+	HEAD:	8	TAIL:	11
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    24    addi
 	1    false X2    124   addi
@@ -776,8 +746,8 @@ Reorder Buffer
 	15   false       0     nop 
 Register Mapping
 	X0 -> $ZERO = 0
-	X1 -> $7 = 16
-	X2 -> $8 = 116
+	X1 -> $7 = 0
+	X2 -> $8 = 0
 	F0 -> $6 = 128
 	F2 -> $2 = 12
 	F4 -> $5 = 8
@@ -802,13 +772,11 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	0               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	0               fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
-	HEAD:	11	TAIL:	11
+	HEAD:	9	TAIL:	11
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    24    addi
 	1    false X2    124   addi
@@ -829,7 +797,7 @@ Reorder Buffer
 Register Mapping
 	X0 -> $ZERO = 0
 	X1 -> $7 = 16
-	X2 -> $8 = 116
+	X2 -> $8 = 0
 	F0 -> $9 = 0
 	F2 -> $2 = 12
 	F4 -> $5 = 8
@@ -854,13 +822,11 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	0               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	0               fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
-	HEAD:	11	TAIL:	12
+	HEAD:	10	TAIL:	12
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    24    addi
 	1    false X2    124   addi
@@ -904,15 +870,13 @@ Reservation Station
 	FPadd1	false	0               fadd	$6  	$4  	$5  	6    
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	true 	4               fmul	$10 	$9  	$2  	12   
+	FPmult1	true 	-1              fmul	$10 	$9  	$2  	12   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	0               fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
-	HEAD:	12	TAIL:	13
+	HEAD:	11	TAIL:	13
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    24    addi
 	1    false X2    124   addi
@@ -956,11 +920,9 @@ Reservation Station
 	FPadd1	false	0               fadd	$6  	$4  	$5  	6    
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	true 	3               fmul	$10 	$9  	$2  	12   
+	FPmult1	true 	4               fmul	$10 	$9  	$2  	12   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	0               fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -1008,11 +970,9 @@ Reservation Station
 	FPadd1	true 	-1              fadd	$12 	$10 	$11 	14   
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	true 	2               fmul	$10 	$9  	$2  	12   
+	FPmult1	true 	3               fmul	$10 	$9  	$2  	12   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	0               fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -1060,11 +1020,9 @@ Reservation Station
 	FPadd1	true 	-1              fadd	$12 	$10 	$11 	14   
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	true 	1               fmul	$10 	$9  	$2  	12   
+	FPmult1	true 	2               fmul	$10 	$9  	$2  	12   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$8  	$12 	15   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -1096,6 +1054,7 @@ Register Mapping
 Clock Cycle: 22
  PC: 12 ================================================
 Fetch Queue
+	40: bne X1, X0, 12
 Instruction (Decode) Queue
 	addi $14, $8, -8
 Reservation Station
@@ -1108,18 +1067,16 @@ Reservation Station
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	true 	3               fadd	$12 	$10 	$11 	14   
+	FPadd1	true 	-1              fadd	$12 	$10 	$11 	14   
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	false	0               fmul	$10 	$9  	$2  	12   
+	FPmult1	true 	1               fmul	$10 	$9  	$2  	12   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$8  	$12 	15   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
-	HEAD:	14	TAIL:	1
+	HEAD:	12	TAIL:	1
 	ROB  BUSY  DEST  VALUE OP
 	0    true  X1    0     addi
 	1    false X2    124   addi
@@ -1133,7 +1090,7 @@ Reorder Buffer
 	9    false X2    116   addi
 	10   false       12    bne 
 	11   false F0    5     fld 
-	12   false F0    60    fmul
+	12   true  F0    0     fmul
 	13   false F4    3     fld 
 	14   true  F0    0     fadd
 	15   true        0     fsd 
@@ -1143,12 +1100,13 @@ Register Mapping
 	X2 -> $14 = 0
 	F0 -> $12 = 0
 	F2 -> $2 = 12
-	F4 -> $11 = 3
+	F4 -> $11 = 0
 Clock Cycle: 23
  PC: 16 ================================================
 Fetch Queue
 	12: fld F0, 0(X1)
 Instruction (Decode) Queue
+	bne  $13, $ZERO, 12
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	0               fld 	$11 	$8  	$0  	13   
@@ -1159,18 +1117,16 @@ Reservation Station
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	true 	2               fadd	$12 	$10 	$11 	14   
+	FPadd1	true 	-1              fadd	$12 	$10 	$11 	14   
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	false	0               fmul	$10 	$9  	$2  	12   
+	FPmult1	true 	0               fmul	$10 	$9  	$2  	12   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$8  	$12 	15   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
-	HEAD:	14	TAIL:	2
+	HEAD:	12	TAIL:	2
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    true  X2    0     addi
@@ -1184,7 +1140,7 @@ Reorder Buffer
 	9    false X2    116   addi
 	10   false       12    bne 
 	11   false F0    5     fld 
-	12   false F0    60    fmul
+	12   true  F0    0     fmul
 	13   false F4    3     fld 
 	14   true  F0    0     fadd
 	15   true        0     fsd 
@@ -1194,7 +1150,7 @@ Register Mapping
 	X2 -> $14 = 0
 	F0 -> $12 = 0
 	F2 -> $2 = 12
-	F4 -> $11 = 3
+	F4 -> $11 = 0
 Clock Cycle: 24
  PC: 20 ================================================
 Fetch Queue
@@ -1205,29 +1161,77 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	0               fld 	$11 	$8  	$0  	13   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$7  	$ZERO	10   
+	BU1   	true 	-1              bne 	$0  	$13 	$ZERO	2    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	0               addi	$14 	$8  	$0  	1    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	true 	1               fadd	$12 	$10 	$11 	14   
+	FPadd1	true 	-1              fadd	$12 	$10 	$11 	14   
+	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPmult1	true 	0               fmul	$10 	$9  	$2  	12   
+	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	true 	-1              fsd 	$0  	$8  	$12 	15   
+	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
+Reorder Buffer
+	HEAD:	12	TAIL:	3
+	ROB  BUSY  DEST  VALUE OP
+	0    false X1    8     addi
+	1    false X2    108   addi
+	2    true        0     bne 
+	3    false F0    10    fld 
+	4    false F0    120   fmul
+	5    false F4    8     fld 
+	6    false F0    128   fadd
+	7    false       0     fsd 
+	8    false X1    16    addi
+	9    false X2    116   addi
+	10   false       12    bne 
+	11   false F0    5     fld 
+	12   true  F0    0     fmul
+	13   false F4    3     fld 
+	14   true  F0    0     fadd
+	15   true        0     fsd 
+Register Mapping
+	X0 -> $ZERO = 0
+	X1 -> $13 = 0
+	X2 -> $14 = 0
+	F0 -> $15 = 0
+	F2 -> $2 = 12
+	F4 -> $11 = 0
+Clock Cycle: 25
+ PC: 24 ================================================
+Fetch Queue
+	20: fld F4, 0(X2)
+Instruction (Decode) Queue
+	fmul $16, $15, $2
+Reservation Station
+	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
+	Load1	true 	-1              fld 	$15 	$13 	$0  	3    
+	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
+	BU1   	true 	1               bne 	$0  	$13 	$ZERO	2    
+	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT1	false	0               addi	$14 	$8  	$0  	1    
+	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPadd1	true 	3               fadd	$12 	$10 	$11 	14   
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	0               fmul	$10 	$9  	$2  	12   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$8  	$12 	15   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
-	HEAD:	14	TAIL:	2
+	HEAD:	13	TAIL:	4
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    false X2    108   addi
-	2    false F2    12    fld 
-	3    false F0    10    fld 
+	2    true        0     bne 
+	3    true  F0    0     fld 
 	4    false F0    120   fmul
 	5    false F4    8     fld 
 	6    false F0    128   fadd
@@ -1244,61 +1248,9 @@ Register Mapping
 	X0 -> $ZERO = 0
 	X1 -> $13 = 0
 	X2 -> $14 = 0
-	F0 -> $15 = 0
-	F2 -> $2 = 12
-	F4 -> $11 = 3
-Clock Cycle: 25
- PC: 24 ================================================
-Fetch Queue
-	20: fld F4, 0(X2)
-Instruction (Decode) Queue
-	fmul $16, $15, $2
-Reservation Station
-	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	true 	-1              fld 	$15 	$13 	$0  	2    
-	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$7  	$ZERO	10   
-	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$14 	$8  	$0  	1    
-	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	false	0               fadd	$12 	$10 	$11 	14   
-	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	false	0               fmul	$10 	$9  	$2  	12   
-	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
-	Store1	true 	1               fsd 	$0  	$8  	$12 	15   
-	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
-Reorder Buffer
-	HEAD:	15	TAIL:	3
-	ROB  BUSY  DEST  VALUE OP
-	0    false X1    8     addi
-	1    false X2    108   addi
-	2    true  F0    0     fld 
-	3    false F0    10    fld 
-	4    false F0    120   fmul
-	5    false F4    8     fld 
-	6    false F0    128   fadd
-	7    false       0     fsd 
-	8    false X1    16    addi
-	9    false X2    116   addi
-	10   false       12    bne 
-	11   false F0    5     fld 
-	12   false F0    60    fmul
-	13   false F4    3     fld 
-	14   false F0    63    fadd
-	15   true        0     fsd 
-Register Mapping
-	X0 -> $ZERO = 0
-	X1 -> $13 = 0
-	X2 -> $14 = 0
 	F0 -> $16 = 0
 	F2 -> $2 = 12
-	F4 -> $11 = 3
+	F4 -> $11 = 0
 Clock Cycle: 26
  PC: 28 ================================================
 Fetch Queue
@@ -1307,32 +1259,30 @@ Instruction (Decode) Queue
 	fld  $17, 0($14)
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	true 	1               fld 	$15 	$13 	$0  	2    
+	Load1	true 	1               fld 	$15 	$13 	$0  	3    
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$7  	$ZERO	10   
+	BU1   	false	0               bne 	$0  	$13 	$ZERO	2    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	0               addi	$14 	$8  	$0  	1    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	false	0               fadd	$12 	$10 	$11 	14   
+	FPadd1	true 	2               fadd	$12 	$10 	$11 	14   
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	true 	-1              fmul	$16 	$15 	$2  	3    
+	FPmult1	true 	-1              fmul	$16 	$15 	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
-	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store1	true 	-1              fsd 	$0  	$8  	$12 	15   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
-	HEAD:	2	TAIL:	4
+	HEAD:	14	TAIL:	5
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    false X2    108   addi
-	2    true  F0    0     fld 
-	3    true  F0    0     fmul
-	4    false F0    120   fmul
+	2    false       12    bne 
+	3    true  F0    0     fld 
+	4    true  F0    0     fmul
 	5    false F4    8     fld 
 	6    false F0    128   fadd
 	7    false       0     fsd 
@@ -1342,12 +1292,12 @@ Reorder Buffer
 	11   false F0    5     fld 
 	12   false F0    60    fmul
 	13   false F4    3     fld 
-	14   false F0    63    fadd
-	15   false       1     fsd 
+	14   true  F0    0     fadd
+	15   true        0     fsd 
 Register Mapping
 	X0 -> $ZERO = 0
-	X1 -> $13 = 8
-	X2 -> $14 = 108
+	X1 -> $13 = 0
+	X2 -> $14 = 0
 	F0 -> $16 = 0
 	F2 -> $2 = 12
 	F4 -> $17 = 0
@@ -1359,33 +1309,31 @@ Instruction (Decode) Queue
 	fadd $18, $16, $17
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	true 	1               fld 	$17 	$14 	$0  	4    
+	Load1	true 	-1              fld 	$17 	$14 	$0  	5    
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$7  	$ZERO	10   
+	BU1   	false	0               bne 	$0  	$13 	$ZERO	2    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	0               addi	$14 	$8  	$0  	1    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	false	0               fadd	$12 	$10 	$11 	14   
+	FPadd1	true 	1               fadd	$12 	$10 	$11 	14   
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	true 	4               fmul	$16 	$15 	$2  	3    
+	FPmult1	true 	4               fmul	$16 	$15 	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
-	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store1	true 	-1              fsd 	$0  	$8  	$12 	15   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
-	HEAD:	3	TAIL:	5
+	HEAD:	14	TAIL:	6
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    false X2    108   addi
-	2    false F0    14    fld 
-	3    true  F0    0     fmul
-	4    true  F4    0     fld 
-	5    false F4    8     fld 
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    true  F0    0     fmul
+	5    true  F4    0     fld 
 	6    false F0    128   fadd
 	7    false       0     fsd 
 	8    false X1    16    addi
@@ -1394,12 +1342,12 @@ Reorder Buffer
 	11   false F0    5     fld 
 	12   false F0    60    fmul
 	13   false F4    3     fld 
-	14   false F0    63    fadd
-	15   false       1     fsd 
+	14   true  F0    0     fadd
+	15   true        0     fsd 
 Register Mapping
 	X0 -> $ZERO = 0
-	X1 -> $13 = 8
-	X2 -> $14 = 108
+	X1 -> $13 = 0
+	X2 -> $14 = 0
 	F0 -> $18 = 0
 	F2 -> $2 = 12
 	F4 -> $17 = 0
@@ -1411,34 +1359,32 @@ Instruction (Decode) Queue
 	fsd  $18, 0($14)
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$17 	$14 	$0  	4    
+	Load1	true 	1               fld 	$17 	$14 	$0  	5    
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$7  	$ZERO	10   
+	BU1   	false	0               bne 	$0  	$13 	$ZERO	2    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	0               addi	$14 	$8  	$0  	1    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	true 	-1              fadd	$18 	$16 	$17 	5    
+	FPadd1	true 	-1              fadd	$18 	$16 	$17 	6    
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	true 	3               fmul	$16 	$15 	$2  	3    
+	FPmult1	true 	3               fmul	$16 	$15 	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
-	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store1	true 	-1              fsd 	$0  	$8  	$12 	15   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
-	HEAD:	3	TAIL:	6
+	HEAD:	15	TAIL:	7
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    false X2    108   addi
-	2    false F0    14    fld 
-	3    true  F0    0     fmul
-	4    false F4    27    fld 
-	5    true  F0    0     fadd
-	6    false F0    128   fadd
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    true  F0    0     fmul
+	5    true  F4    0     fld 
+	6    true  F0    0     fadd
 	7    false       0     fsd 
 	8    false X1    16    addi
 	9    false X2    116   addi
@@ -1447,11 +1393,11 @@ Reorder Buffer
 	12   false F0    60    fmul
 	13   false F4    3     fld 
 	14   false F0    63    fadd
-	15   false       1     fsd 
+	15   true        0     fsd 
 Register Mapping
 	X0 -> $ZERO = 0
-	X1 -> $13 = 8
-	X2 -> $14 = 108
+	X1 -> $13 = 0
+	X2 -> $14 = 0
 	F0 -> $18 = 0
 	F2 -> $2 = 12
 	F4 -> $17 = 0
@@ -1463,35 +1409,33 @@ Instruction (Decode) Queue
 	addi $19, $13, -8
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$17 	$14 	$0  	4    
+	Load1	false	0               fld 	$17 	$14 	$0  	5    
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$7  	$ZERO	10   
+	BU1   	false	0               bne 	$0  	$13 	$ZERO	2    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	0               addi	$14 	$8  	$0  	1    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	true 	-1              fadd	$18 	$16 	$17 	5    
+	FPadd1	true 	-1              fadd	$18 	$16 	$17 	6    
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	true 	2               fmul	$16 	$15 	$2  	3    
+	FPmult1	true 	2               fmul	$16 	$15 	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
-	Store1	true 	-1              fsd 	$0  	$14 	$18 	6    
-	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	true 	1               fsd 	$0  	$8  	$12 	15   
+	Store2	true 	-1              fsd 	$0  	$14 	$18 	7    
 Reorder Buffer
-	HEAD:	3	TAIL:	7
+	HEAD:	15	TAIL:	8
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    false X2    108   addi
-	2    false F0    14    fld 
-	3    true  F0    0     fmul
-	4    false F4    27    fld 
-	5    true  F0    0     fadd
-	6    true        0     fsd 
-	7    false       0     fsd 
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    true  F0    0     fmul
+	5    false F4    27    fld 
+	6    true  F0    0     fadd
+	7    true        0     fsd 
 	8    false X1    16    addi
 	9    false X2    116   addi
 	10   false       12    bne 
@@ -1499,11 +1443,11 @@ Reorder Buffer
 	12   false F0    60    fmul
 	13   false F4    3     fld 
 	14   false F0    63    fadd
-	15   false       1     fsd 
+	15   true        0     fsd 
 Register Mapping
 	X0 -> $ZERO = 0
 	X1 -> $19 = 0
-	X2 -> $14 = 108
+	X2 -> $14 = 0
 	F0 -> $18 = 0
 	F2 -> $2 = 12
 	F4 -> $17 = 0
@@ -1515,36 +1459,34 @@ Instruction (Decode) Queue
 	addi $20, $14, -8
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$17 	$14 	$0  	4    
+	Load1	false	0               fld 	$17 	$14 	$0  	5    
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$7  	$ZERO	10   
+	BU1   	false	0               bne 	$0  	$13 	$ZERO	2    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	true 	1               addi	$19 	$13 	$0  	7    
+	INT1	true 	-1              addi	$19 	$13 	$0  	8    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	true 	-1              fadd	$18 	$16 	$17 	5    
+	FPadd1	true 	-1              fadd	$18 	$16 	$17 	6    
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	true 	1               fmul	$16 	$15 	$2  	3    
+	FPmult1	true 	1               fmul	$16 	$15 	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
-	Store1	true 	-1              fsd 	$0  	$14 	$18 	6    
-	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store2	true 	-1              fsd 	$0  	$14 	$18 	7    
 Reorder Buffer
-	HEAD:	3	TAIL:	8
+	HEAD:	0	TAIL:	9
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    false X2    108   addi
-	2    false F0    14    fld 
-	3    true  F0    0     fmul
-	4    false F4    27    fld 
-	5    true  F0    0     fadd
-	6    true        0     fsd 
-	7    true  X1    0     addi
-	8    false X1    16    addi
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    true  F0    0     fmul
+	5    false F4    27    fld 
+	6    true  F0    0     fadd
+	7    true        0     fsd 
+	8    true  X1    0     addi
 	9    false X2    116   addi
 	10   false       12    bne 
 	11   false F0    5     fld 
@@ -1566,37 +1508,35 @@ Instruction (Decode) Queue
 	bne  $19, $ZERO, 12
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$17 	$14 	$0  	4    
+	Load1	false	0               fld 	$17 	$14 	$0  	5    
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$7  	$ZERO	10   
+	BU1   	false	0               bne 	$0  	$13 	$ZERO	2    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	true 	1               addi	$20 	$14 	$0  	8    
-	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT1	true 	1               addi	$19 	$13 	$0  	8    
+	INT2	true 	-1              addi	$20 	$14 	$0  	9    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	true 	-1              fadd	$18 	$16 	$17 	5    
+	FPadd1	true 	3               fadd	$18 	$16 	$17 	6    
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	true 	1               fmul	$16 	$15 	$2  	3    
+	FPmult1	false	0               fmul	$16 	$15 	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
-	Store1	true 	-1              fsd 	$0  	$14 	$18 	6    
-	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store2	true 	-1              fsd 	$0  	$14 	$18 	7    
 Reorder Buffer
-	HEAD:	3	TAIL:	9
+	HEAD:	1	TAIL:	10
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    false X2    108   addi
-	2    false F0    14    fld 
-	3    true  F0    0     fmul
-	4    false F4    27    fld 
-	5    true  F0    0     fadd
-	6    true        0     fsd 
-	7    false X1    0     addi
-	8    true  X2    0     addi
-	9    false X2    116   addi
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    false F0    168   fmul
+	5    false F4    27    fld 
+	6    true  F0    0     fadd
+	7    true        0     fsd 
+	8    true  X1    0     addi
+	9    true  X2    0     addi
 	10   false       12    bne 
 	11   false F0    5     fld 
 	12   false F0    60    fmul
@@ -1616,38 +1556,36 @@ Fetch Queue
 Instruction (Decode) Queue
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$17 	$14 	$0  	4    
+	Load1	false	0               fld 	$17 	$14 	$0  	5    
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	true 	-1              bne 	$0  	$19 	$ZERO	9    
+	BU1   	true 	-1              bne 	$0  	$19 	$ZERO	10   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$20 	$14 	$0  	8    
-	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT1	false	0               addi	$19 	$13 	$0  	8    
+	INT2	true 	1               addi	$20 	$14 	$0  	9    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	true 	-1              fadd	$18 	$16 	$17 	5    
+	FPadd1	true 	2               fadd	$18 	$16 	$17 	6    
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	true 	1               fmul	$16 	$15 	$2  	3    
+	FPmult1	false	0               fmul	$16 	$15 	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
-	Store1	true 	-1              fsd 	$0  	$14 	$18 	6    
-	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store2	true 	-1              fsd 	$0  	$14 	$18 	7    
 Reorder Buffer
-	HEAD:	3	TAIL:	10
+	HEAD:	2	TAIL:	11
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    false X2    108   addi
-	2    false F0    14    fld 
-	3    true  F0    0     fmul
-	4    false F4    27    fld 
-	5    true  F0    0     fadd
-	6    true        0     fsd 
-	7    false X1    0     addi
-	8    false X2    100   addi
-	9    true        0     bne 
-	10   false       12    bne 
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    false F0    168   fmul
+	5    false F4    27    fld 
+	6    true  F0    0     fadd
+	7    true        0     fsd 
+	8    false X1    0     addi
+	9    true  X2    0     addi
+	10   true        0     bne 
 	11   false F0    5     fld 
 	12   false F0    60    fmul
 	13   false F4    3     fld 
@@ -1666,38 +1604,36 @@ Fetch Queue
 Instruction (Decode) Queue
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$17 	$14 	$0  	4    
+	Load1	false	0               fld 	$17 	$14 	$0  	5    
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	true 	1               bne 	$0  	$19 	$ZERO	9    
+	BU1   	true 	1               bne 	$0  	$19 	$ZERO	10   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$20 	$14 	$0  	8    
-	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT1	false	0               addi	$19 	$13 	$0  	8    
+	INT2	false	0               addi	$20 	$14 	$0  	9    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	true 	3               fadd	$18 	$16 	$17 	5    
+	FPadd1	true 	1               fadd	$18 	$16 	$17 	6    
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	false	0               fmul	$16 	$15 	$2  	3    
+	FPmult1	false	0               fmul	$16 	$15 	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
-	Store1	true 	-1              fsd 	$0  	$14 	$18 	6    
-	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store2	true 	-1              fsd 	$0  	$14 	$18 	7    
 Reorder Buffer
-	HEAD:	5	TAIL:	10
+	HEAD:	3	TAIL:	11
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    false X2    108   addi
-	2    false F0    14    fld 
-	3    false F0    168   fmul
-	4    false F4    27    fld 
-	5    true  F0    0     fadd
-	6    true        0     fsd 
-	7    false X1    0     addi
-	8    false X2    100   addi
-	9    true        0     bne 
-	10   false       12    bne 
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    false F0    168   fmul
+	5    false F4    27    fld 
+	6    true  F0    0     fadd
+	7    true        0     fsd 
+	8    false X1    0     addi
+	9    false X2    100   addi
+	10   true        0     bne 
 	11   false F0    5     fld 
 	12   false F0    60    fmul
 	13   false F4    3     fld 
@@ -1709,45 +1645,43 @@ Register Mapping
 	X2 -> $20 = 0
 	F0 -> $18 = 0
 	F2 -> $2 = 12
-	F4 -> $17 = 27
+	F4 -> $17 = 0
 Clock Cycle: 34
  PC: 44 ================================================
 Fetch Queue
 Instruction (Decode) Queue
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$17 	$14 	$0  	4    
+	Load1	false	0               fld 	$17 	$14 	$0  	5    
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$19 	$ZERO	9    
+	BU1   	false	0               bne 	$0  	$19 	$ZERO	10   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$20 	$14 	$0  	8    
-	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT1	false	0               addi	$19 	$13 	$0  	8    
+	INT2	false	0               addi	$20 	$14 	$0  	9    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	true 	2               fadd	$18 	$16 	$17 	5    
+	FPadd1	false	0               fadd	$18 	$16 	$17 	6    
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	false	0               fmul	$16 	$15 	$2  	3    
+	FPmult1	false	0               fmul	$16 	$15 	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
-	Store1	true 	-1              fsd 	$0  	$14 	$18 	6    
-	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store2	true 	1               fsd 	$0  	$14 	$18 	7    
 Reorder Buffer
-	HEAD:	5	TAIL:	10
+	HEAD:	4	TAIL:	11
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    false X2    108   addi
-	2    false F0    14    fld 
-	3    false F0    168   fmul
-	4    false F4    27    fld 
-	5    true  F0    0     fadd
-	6    true        0     fsd 
-	7    false X1    0     addi
-	8    false X2    100   addi
-	9    false       44    bne 
-	10   false       12    bne 
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    false F0    168   fmul
+	5    false F4    27    fld 
+	6    false F0    195   fadd
+	7    true        0     fsd 
+	8    false X1    0     addi
+	9    false X2    100   addi
+	10   false       44    bne 
 	11   false F0    5     fld 
 	12   false F0    60    fmul
 	13   false F4    3     fld 
@@ -1759,45 +1693,91 @@ Register Mapping
 	X2 -> $20 = 0
 	F0 -> $18 = 0
 	F2 -> $2 = 12
-	F4 -> $17 = 27
+	F4 -> $17 = 0
 Clock Cycle: 35
  PC: 44 ================================================
 Fetch Queue
 Instruction (Decode) Queue
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$17 	$14 	$0  	4    
+	Load1	false	0               fld 	$17 	$14 	$0  	5    
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$19 	$ZERO	9    
+	BU1   	false	0               bne 	$0  	$19 	$ZERO	10   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$20 	$14 	$0  	8    
-	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT1	false	0               addi	$19 	$13 	$0  	8    
+	INT2	false	0               addi	$20 	$14 	$0  	9    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	true 	1               fadd	$18 	$16 	$17 	5    
+	FPadd1	false	0               fadd	$18 	$16 	$17 	6    
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	false	0               fmul	$16 	$15 	$2  	3    
+	FPmult1	false	0               fmul	$16 	$15 	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
-	Store1	true 	-1              fsd 	$0  	$14 	$18 	6    
-	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store2	false	0               fsd 	$0  	$14 	$18 	7    
 Reorder Buffer
-	HEAD:	5	TAIL:	10
+	HEAD:	5	TAIL:	11
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    false X2    108   addi
-	2    false F0    14    fld 
-	3    false F0    168   fmul
-	4    false F4    27    fld 
-	5    true  F0    0     fadd
-	6    true        0     fsd 
-	7    false X1    0     addi
-	8    false X2    100   addi
-	9    false       44    bne 
-	10   false       12    bne 
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    false F0    168   fmul
+	5    false F4    27    fld 
+	6    false F0    195   fadd
+	7    false       2     fsd 
+	8    false X1    0     addi
+	9    false X2    100   addi
+	10   false       44    bne 
+	11   false F0    5     fld 
+	12   false F0    60    fmul
+	13   false F4    3     fld 
+	14   false F0    63    fadd
+	15   false       1     fsd 
+Register Mapping
+	X0 -> $ZERO = 0
+	X1 -> $19 = 0
+	X2 -> $20 = 0
+	F0 -> $18 = 0
+	F2 -> $2 = 12
+	F4 -> $17 = 0
+Clock Cycle: 36
+ PC: 44 ================================================
+Fetch Queue
+Instruction (Decode) Queue
+Reservation Station
+	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
+	Load1	false	0               fld 	$17 	$14 	$0  	5    
+	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
+	BU1   	false	0               bne 	$0  	$19 	$ZERO	10   
+	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT1	false	0               addi	$19 	$13 	$0  	8    
+	INT2	false	0               addi	$20 	$14 	$0  	9    
+	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPadd1	false	0               fadd	$18 	$16 	$17 	6    
+	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPmult1	false	0               fmul	$16 	$15 	$2  	4    
+	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store2	false	0               fsd 	$0  	$14 	$18 	7    
+Reorder Buffer
+	HEAD:	6	TAIL:	11
+	ROB  BUSY  DEST  VALUE OP
+	0    false X1    8     addi
+	1    false X2    108   addi
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    false F0    168   fmul
+	5    false F4    27    fld 
+	6    false F0    195   fadd
+	7    false       2     fsd 
+	8    false X1    0     addi
+	9    false X2    100   addi
+	10   false       44    bne 
 	11   false F0    5     fld 
 	12   false F0    60    fmul
 	13   false F4    3     fld 
@@ -1810,44 +1790,42 @@ Register Mapping
 	F0 -> $18 = 0
 	F2 -> $2 = 12
 	F4 -> $17 = 27
-Clock Cycle: 36
+Clock Cycle: 37
  PC: 44 ================================================
 Fetch Queue
 Instruction (Decode) Queue
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$17 	$14 	$0  	4    
+	Load1	false	0               fld 	$17 	$14 	$0  	5    
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$19 	$ZERO	9    
+	BU1   	false	0               bne 	$0  	$19 	$ZERO	10   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$20 	$14 	$0  	8    
-	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT1	false	0               addi	$19 	$13 	$0  	8    
+	INT2	false	0               addi	$20 	$14 	$0  	9    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	false	0               fadd	$18 	$16 	$17 	5    
+	FPadd1	false	0               fadd	$18 	$16 	$17 	6    
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	false	0               fmul	$16 	$15 	$2  	3    
+	FPmult1	false	0               fmul	$16 	$15 	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
-	Store1	true 	1               fsd 	$0  	$14 	$18 	6    
-	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store2	false	0               fsd 	$0  	$14 	$18 	7    
 Reorder Buffer
-	HEAD:	6	TAIL:	10
+	HEAD:	7	TAIL:	11
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    false X2    108   addi
-	2    false F0    14    fld 
-	3    false F0    168   fmul
-	4    false F4    27    fld 
-	5    false F0    195   fadd
-	6    true        0     fsd 
-	7    false X1    0     addi
-	8    false X2    100   addi
-	9    false       44    bne 
-	10   false       12    bne 
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    false F0    168   fmul
+	5    false F4    27    fld 
+	6    false F0    195   fadd
+	7    false       2     fsd 
+	8    false X1    0     addi
+	9    false X2    100   addi
+	10   false       44    bne 
 	11   false F0    5     fld 
 	12   false F0    60    fmul
 	13   false F4    3     fld 
@@ -1860,44 +1838,186 @@ Register Mapping
 	F0 -> $18 = 195
 	F2 -> $2 = 12
 	F4 -> $17 = 27
-Clock Cycle: 37
+Clock Cycle: 38
  PC: 44 ================================================
 Fetch Queue
 Instruction (Decode) Queue
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$17 	$14 	$0  	4    
+	Load1	false	0               fld 	$17 	$14 	$0  	5    
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$19 	$ZERO	9    
+	BU1   	false	0               bne 	$0  	$19 	$ZERO	10   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$20 	$14 	$0  	8    
-	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT1	false	0               addi	$19 	$13 	$0  	8    
+	INT2	false	0               addi	$20 	$14 	$0  	9    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	false	0               fadd	$18 	$16 	$17 	5    
+	FPadd1	false	0               fadd	$18 	$16 	$17 	6    
 	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult1	false	0               fmul	$16 	$15 	$2  	3    
+	FPmult1	false	0               fmul	$16 	$15 	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
-	Store1	false	0               fsd 	$0  	$14 	$18 	6    
-	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store2	false	0               fsd 	$0  	$14 	$18 	7    
 Reorder Buffer
-	HEAD:	10	TAIL:	10
+	HEAD:	8	TAIL:	11
 	ROB  BUSY  DEST  VALUE OP
 	0    false X1    8     addi
 	1    false X2    108   addi
-	2    false F0    14    fld 
-	3    false F0    168   fmul
-	4    false F4    27    fld 
-	5    false F0    195   fadd
-	6    false       2     fsd 
-	7    false X1    0     addi
-	8    false X2    100   addi
-	9    false       44    bne 
-	10   false       12    bne 
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    false F0    168   fmul
+	5    false F4    27    fld 
+	6    false F0    195   fadd
+	7    false       2     fsd 
+	8    false X1    0     addi
+	9    false X2    100   addi
+	10   false       44    bne 
+	11   false F0    5     fld 
+	12   false F0    60    fmul
+	13   false F4    3     fld 
+	14   false F0    63    fadd
+	15   false       1     fsd 
+Register Mapping
+	X0 -> $ZERO = 0
+	X1 -> $19 = 0
+	X2 -> $20 = 0
+	F0 -> $18 = 195
+	F2 -> $2 = 12
+	F4 -> $17 = 27
+Clock Cycle: 39
+ PC: 44 ================================================
+Fetch Queue
+Instruction (Decode) Queue
+Reservation Station
+	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
+	Load1	false	0               fld 	$17 	$14 	$0  	5    
+	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
+	BU1   	false	0               bne 	$0  	$19 	$ZERO	10   
+	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT1	false	0               addi	$19 	$13 	$0  	8    
+	INT2	false	0               addi	$20 	$14 	$0  	9    
+	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPadd1	false	0               fadd	$18 	$16 	$17 	6    
+	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPmult1	false	0               fmul	$16 	$15 	$2  	4    
+	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store2	false	0               fsd 	$0  	$14 	$18 	7    
+Reorder Buffer
+	HEAD:	9	TAIL:	11
+	ROB  BUSY  DEST  VALUE OP
+	0    false X1    8     addi
+	1    false X2    108   addi
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    false F0    168   fmul
+	5    false F4    27    fld 
+	6    false F0    195   fadd
+	7    false       2     fsd 
+	8    false X1    0     addi
+	9    false X2    100   addi
+	10   false       44    bne 
+	11   false F0    5     fld 
+	12   false F0    60    fmul
+	13   false F4    3     fld 
+	14   false F0    63    fadd
+	15   false       1     fsd 
+Register Mapping
+	X0 -> $ZERO = 0
+	X1 -> $19 = 0
+	X2 -> $20 = 0
+	F0 -> $18 = 195
+	F2 -> $2 = 12
+	F4 -> $17 = 27
+Clock Cycle: 40
+ PC: 44 ================================================
+Fetch Queue
+Instruction (Decode) Queue
+Reservation Station
+	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
+	Load1	false	0               fld 	$17 	$14 	$0  	5    
+	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
+	BU1   	false	0               bne 	$0  	$19 	$ZERO	10   
+	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT1	false	0               addi	$19 	$13 	$0  	8    
+	INT2	false	0               addi	$20 	$14 	$0  	9    
+	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPadd1	false	0               fadd	$18 	$16 	$17 	6    
+	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPmult1	false	0               fmul	$16 	$15 	$2  	4    
+	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store2	false	0               fsd 	$0  	$14 	$18 	7    
+Reorder Buffer
+	HEAD:	10	TAIL:	11
+	ROB  BUSY  DEST  VALUE OP
+	0    false X1    8     addi
+	1    false X2    108   addi
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    false F0    168   fmul
+	5    false F4    27    fld 
+	6    false F0    195   fadd
+	7    false       2     fsd 
+	8    false X1    0     addi
+	9    false X2    100   addi
+	10   false       44    bne 
+	11   false F0    5     fld 
+	12   false F0    60    fmul
+	13   false F4    3     fld 
+	14   false F0    63    fadd
+	15   false       1     fsd 
+Register Mapping
+	X0 -> $ZERO = 0
+	X1 -> $19 = 0
+	X2 -> $20 = 100
+	F0 -> $18 = 195
+	F2 -> $2 = 12
+	F4 -> $17 = 27
+Clock Cycle: 41
+ PC: 44 ================================================
+Fetch Queue
+Instruction (Decode) Queue
+Reservation Station
+	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
+	Load1	false	0               fld 	$17 	$14 	$0  	5    
+	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
+	BU1   	false	0               bne 	$0  	$19 	$ZERO	10   
+	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT1	false	0               addi	$19 	$13 	$0  	8    
+	INT2	false	0               addi	$20 	$14 	$0  	9    
+	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
+	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPadd1	false	0               fadd	$18 	$16 	$17 	6    
+	FPadd2	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPmult1	false	0               fmul	$16 	$15 	$2  	4    
+	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
+	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
+	Store1	false	0               fsd 	$0  	$8  	$12 	15   
+	Store2	false	0               fsd 	$0  	$14 	$18 	7    
+Reorder Buffer
+	HEAD:	11	TAIL:	11
+	ROB  BUSY  DEST  VALUE OP
+	0    false X1    8     addi
+	1    false X2    108   addi
+	2    false       12    bne 
+	3    false F0    14    fld 
+	4    false F0    168   fmul
+	5    false F4    27    fld 
+	6    false F0    195   fadd
+	7    false       2     fsd 
+	8    false X1    0     addi
+	9    false X2    100   addi
+	10   false       44    bne 
 	11   false F0    5     fld 
 	12   false F0    60    fmul
 	13   false F4    3     fld 
@@ -1911,6 +2031,6 @@ Register Mapping
 	F2 -> $2 = 12
 	F4 -> $17 = 27
 Simulation complete!
-Total CCs: 37
+Total CCs: 41
 RS Stalls: 0
 ROB Stalls: 0

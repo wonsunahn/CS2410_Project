@@ -86,7 +86,6 @@ void XLSXEventLogger::markStage(int sequence, const std::string& stage)
 	int row = instructionRow[sequence];
 	int col = currentCycle + 3;
 	auto worksheet = document.workbook().worksheet(worksheetName);
-	assert (readCellAsString(row, col).empty() || readCellAsString(row, col) == stage); // Ensure we don't overwrite an existing stage for this cycle
 	worksheet.cell(OpenXLSX::XLCellReference(row, col)).value() = stage;
 }
 
@@ -108,16 +107,35 @@ void XLSXEventLogger::close()
 	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 2)).value() = "Instruction Decode";
 
 	legendRow++;
-	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 1)).value() = "IS/EX";
-	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 2)).value() = "Add to Issue Queue/Execute (if instruction is ready, it can start executing in the same cycle it is added to issue queue)";
+	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 1)).value() = "IS";
+	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 2)).value() = "Add to Issue Queue";
 
 	legendRow++;
 	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 1)).value() = "EX";
-	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 2)).value() = "Execute";
+	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 2)).value() = "Execute (instruction can execute on the same cycle as it is added to the issue queue, if it is ready)";
 
 	legendRow++;
-	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 1)).value() = "WB/CT";
-	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 2)).value() = "Write Back/Commit (instruction can be committed on the same cycle it writes back)";
+	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 1)).value() = "WB";
+	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 2)).value() = "Write Back";
+
+	legendRow++;
+	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 1)).value() = "CT";
+	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 2)).value() = "Commit (instruction can commit on the same cycle as write back, if at the head)";
+
+	legendRow++;
+	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 1)).value() = "RS Stall";
+	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 2)).value() = "Reservation Station Stall (stalled because reservation stations are full)";
+
+	legendRow++;
+	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 1)).value() = "ROB Stall";
+	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 2)).value() = "Reorder Buffer Stall (stalled because the ROB is full)";
+
+	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 1)).value() = "CDB Stall";
+	worksheet.cell(OpenXLSX::XLCellReference(legendRow, 2)).value() = "Common Data Bus Stall (stalled because the CDB bandwidth is saturated)";
+
+	// Fix timestamps to a constant so that files with identical content produce identical bytes
+	document.setProperty(OpenXLSX::XLProperty::CreationDate,     "2000-01-01T00:00:00Z");
+	document.setProperty(OpenXLSX::XLProperty::ModificationDate, "2000-01-01T00:00:00Z");
 
 	document.save();
 	document.close();

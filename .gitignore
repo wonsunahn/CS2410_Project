@@ -36,5 +36,3 @@ sim
 # Simulator output files
 outputs/*
 diffs/*
-build/
-outputs_xlsx/

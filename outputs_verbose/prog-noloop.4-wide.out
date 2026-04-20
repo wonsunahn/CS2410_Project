@@ -46,9 +46,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -99,9 +97,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -154,9 +150,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -206,9 +200,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	true 	-1              fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -256,9 +248,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	true 	4               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -306,9 +296,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	true 	3               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -356,9 +344,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	true 	2               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -406,9 +392,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	true 	1               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -456,9 +440,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	0               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -506,9 +488,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	0               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -556,9 +536,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	0               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	-1              fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -606,9 +584,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	0               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	true 	1               fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer
@@ -656,9 +632,7 @@ Reservation Station
 	FPadd3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPmult1	false	0               fmul	$4  	$3  	$2  	4    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPmult3	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv2	false	-1              nop 	$0  	$0  	$0  	-1   
 	Store1	false	0               fsd 	$0  	$1  	$6  	7    
 	Store2	false	-1              nop 	$0  	$0  	$0  	-1   
 Reorder Buffer

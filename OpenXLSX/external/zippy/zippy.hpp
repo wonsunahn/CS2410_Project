@@ -10854,23 +10854,29 @@ namespace Zippy
             if (!mz_zip_writer_init_file(&tempArchive, tempPath.c_str(), 0))              // pull request #210
                 throw ZipRuntimeError(mz_zip_get_error_string(tempArchive.m_last_error)); //  "
 
+            // Use a fixed entry timestamp so ZIP headers are deterministic across runs.
+            const MZ_TIME_T deterministicEntryTime = static_cast<MZ_TIME_T>(946684800); // 2000-01-01T00:00:00Z
+
             // ===== Iterate through the ZipEntries and add entries to the temporary file
             for (auto& file : m_ZipEntries) {
                 if (file.IsDirectory()) continue;    // TODO: Ensure this is the right thing to do (Excel issue)
-                if (!file.IsModified()) {
-                    if (!mz_zip_writer_add_from_zip_reader(&tempArchive, &m_Archive, file.Index())) {
-                        throw ZipRuntimeError(mz_zip_get_error_string(m_Archive.m_last_error));
-                    }
-                }
 
-                else {
-                    if (!mz_zip_writer_add_mem(&tempArchive,
-                                               file.GetName().c_str(),
-                                               file.m_EntryData.data(),
-                                               file.m_EntryData.size(),
-                                               MZ_DEFAULT_COMPRESSION)) {
-                        throw ZipRuntimeError(mz_zip_get_error_string(m_Archive.m_last_error));
-                    }
+                const auto data = file.GetData();
+                if (!mz_zip_writer_add_mem_ex_v2(&tempArchive,
+                                                 file.GetName().c_str(),
+                                                 data.data(),
+                                                 data.size(),
+                                                 NULL,
+                                                 0,
+                                                 MZ_DEFAULT_COMPRESSION,
+                                                 0,
+                                                 0,
+                                                 const_cast<MZ_TIME_T*>(&deterministicEntryTime),
+                                                 NULL,
+                                                 0,
+                                                 NULL,
+                                                 0)) {
+                    throw ZipRuntimeError(mz_zip_get_error_string(m_Archive.m_last_error));
                 }
             }
 

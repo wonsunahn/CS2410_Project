@@ -4,14 +4,15 @@
 #include <glib.h>
 #include <glib/gprintf.h>
 
-struct Config
+typedef struct
 {
 	int NF; // Fetch Width
 	int NI; // Instruction Queue Size
-	int NW; // Number of Instructions Executable
+	int NW; // Number of Instructions that can be dispatched per cycle
 	int NR; // Reorder Buffer Size
-	int NB; // Number of Common Data Buses (CDB)
-};
+	int NB; // Width of Common Data Buses (CDB)
+	int NC; // Number of Instructions that can commit from the ROB per cycle
+} Config;
 
 int parse_config(const char *config_file_name);
 

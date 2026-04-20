@@ -37,6 +37,8 @@ int parse_config(const char *config_file_name)
   assert(config->NR > 0);  
   config->NB = g_key_file_get_integer (keyfile, "pipeline", "NB", NULL);
   assert(config->NB > 0);  
+  config->NC = g_key_file_get_integer (keyfile, "pipeline", "NC", NULL);
+  assert(config->NC > 0);
 
   g_key_file_free(keyfile);
 

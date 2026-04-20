@@ -1,6 +1,6 @@
 Simulation complete!
-Total CCs: 21
-RS Stalls: 0
+Total CCs: 24
+RS Stalls: 2
 ROB Stalls: 0
 Data Cache
 	Address	Value
