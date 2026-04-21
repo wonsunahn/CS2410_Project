@@ -126,7 +126,7 @@ Reservation Station
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU1   	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$0  	$ZERO	$0  	0    
+	INT1	false	-1              addi	$0  	$ZERO	$0  	0    
 	INT2	true 	1               addi	$1  	$0  	$0  	1    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -159,8 +159,8 @@ Reservation Station
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU1   	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$0  	$ZERO	$0  	0    
-	INT2	false	0               addi	$1  	$0  	$0  	1    
+	INT1	false	-1              addi	$0  	$ZERO	$0  	0    
+	INT2	false	-1              addi	$1  	$0  	$0  	1    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd1	false	-1              nop 	$0  	$0  	$0  	-1   

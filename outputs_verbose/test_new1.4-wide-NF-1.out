@@ -296,7 +296,7 @@ Reservation Station
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU1   	true 	1               bne 	$0  	$3  	$ZERO	4    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$3  	$0  	$0  	3    
+	INT1	false	-1              addi	$3  	$0  	$0  	3    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -340,9 +340,9 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$3  	$ZERO	4    
+	BU1   	false	-1              bne 	$0  	$3  	$ZERO	4    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$3  	$0  	$0  	3    
+	INT1	false	-1              addi	$3  	$0  	$0  	3    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -387,9 +387,9 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$3  	$ZERO	4    
+	BU1   	false	-1              bne 	$0  	$3  	$ZERO	4    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$3  	$0  	$0  	3    
+	INT1	false	-1              addi	$3  	$0  	$0  	3    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -434,7 +434,7 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$3  	$ZERO	4    
+	BU1   	false	-1              bne 	$0  	$3  	$ZERO	4    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	true 	1               add 	$4  	$2  	$3  	5    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -481,7 +481,7 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$3  	$ZERO	4    
+	BU1   	false	-1              bne 	$0  	$3  	$ZERO	4    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	true 	1               addi	$5  	$3  	$0  	6    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -530,7 +530,7 @@ Reservation Station
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU1   	true 	1               bne 	$0  	$5  	$ZERO	7    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$5  	$3  	$0  	6    
+	INT1	false	-1              addi	$5  	$3  	$0  	6    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -575,7 +575,7 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$5  	$ZERO	7    
+	BU1   	false	-1              bne 	$0  	$5  	$ZERO	7    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	true 	1               add 	$6  	$4  	$5  	8    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -622,7 +622,7 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$5  	$ZERO	7    
+	BU1   	false	-1              bne 	$0  	$5  	$ZERO	7    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	true 	1               addi	$7  	$5  	$0  	9    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -671,7 +671,7 @@ Reservation Station
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU1   	true 	1               bne 	$0  	$7  	$ZERO	10   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$7  	$5  	$0  	9    
+	INT1	false	-1              addi	$7  	$5  	$0  	9    
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -716,7 +716,7 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$7  	$ZERO	10   
+	BU1   	false	-1              bne 	$0  	$7  	$ZERO	10   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	true 	1               add 	$8  	$6  	$7  	11   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -763,7 +763,7 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$7  	$ZERO	10   
+	BU1   	false	-1              bne 	$0  	$7  	$ZERO	10   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	true 	1               addi	$9  	$7  	$0  	12   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -812,7 +812,7 @@ Reservation Station
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU1   	true 	1               bne 	$0  	$9  	$ZERO	13   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$9  	$7  	$0  	12   
+	INT1	false	-1              addi	$9  	$7  	$0  	12   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -857,7 +857,7 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$9  	$ZERO	13   
+	BU1   	false	-1              bne 	$0  	$9  	$ZERO	13   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	true 	1               add 	$10 	$8  	$9  	14   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -903,7 +903,7 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$9  	$ZERO	13   
+	BU1   	false	-1              bne 	$0  	$9  	$ZERO	13   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	true 	1               addi	$11 	$9  	$0  	15   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -950,7 +950,7 @@ Reservation Station
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU1   	true 	1               bne 	$0  	$11 	$ZERO	0    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$11 	$9  	$0  	15   
+	INT1	false	-1              addi	$11 	$9  	$0  	15   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -993,9 +993,9 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$11 	$ZERO	0    
+	BU1   	false	-1              bne 	$0  	$11 	$ZERO	0    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$11 	$9  	$0  	15   
+	INT1	false	-1              addi	$11 	$9  	$0  	15   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   

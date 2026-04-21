@@ -122,7 +122,7 @@ Reservation Station
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU1   	true 	-1              bne 	$0  	$1  	$0  	2    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$0  	$ZERO	$0  	0    
+	INT1	false	-1              addi	$0  	$ZERO	$0  	0    
 	INT2	true 	1               addi	$1  	$0  	$0  	1    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -155,8 +155,8 @@ Reservation Station
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU1   	true 	1               bne 	$0  	$1  	$0  	2    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$0  	$ZERO	$0  	0    
-	INT2	false	0               addi	$1  	$0  	$0  	1    
+	INT1	false	-1              addi	$0  	$ZERO	$0  	0    
+	INT2	false	-1              addi	$1  	$0  	$0  	1    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd1	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -187,10 +187,10 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$1  	$0  	2    
+	BU1   	false	-1              bne 	$0  	$1  	$0  	2    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$0  	$ZERO	$0  	0    
-	INT2	false	0               addi	$1  	$0  	$0  	1    
+	INT1	false	-1              addi	$0  	$ZERO	$0  	0    
+	INT2	false	-1              addi	$1  	$0  	$0  	1    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd1	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -221,10 +221,10 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$1  	$0  	2    
+	BU1   	false	-1              bne 	$0  	$1  	$0  	2    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$0  	$ZERO	$0  	0    
-	INT2	false	0               addi	$1  	$0  	$0  	1    
+	INT1	false	-1              addi	$0  	$ZERO	$0  	0    
+	INT2	false	-1              addi	$1  	$0  	$0  	1    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd1	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -254,10 +254,10 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$1  	$0  	2    
+	BU1   	false	-1              bne 	$0  	$1  	$0  	2    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	true 	1               addi	$2  	$1  	$0  	3    
-	INT2	false	0               addi	$1  	$0  	$0  	1    
+	INT2	false	-1              addi	$1  	$0  	$0  	1    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd1	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -287,10 +287,10 @@ Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	false	-1              nop 	$0  	$0  	$0  	-1   
 	Load2	false	-1              nop 	$0  	$0  	$0  	-1   
-	BU1   	false	0               bne 	$0  	$1  	$0  	2    
+	BU1   	false	-1              bne 	$0  	$1  	$0  	2    
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
-	INT1	false	0               addi	$2  	$1  	$0  	3    
-	INT2	false	0               addi	$1  	$0  	$0  	1    
+	INT1	false	-1              addi	$2  	$1  	$0  	3    
+	INT2	false	-1              addi	$1  	$0  	$0  	1    
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPadd1	false	-1              nop 	$0  	$0  	$0  	-1   

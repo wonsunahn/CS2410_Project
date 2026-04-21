@@ -357,7 +357,7 @@ Instruction (Decode) Queue
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
 	Load1	true 	1               fld 	$4  	$ZERO	$0  	4    
-	Load2	false	0               fld 	$3  	$ZERO	$0  	3    
+	Load2	false	-1              fld 	$3  	$ZERO	$0  	3    
 	BU1   	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -414,8 +414,8 @@ Instruction (Decode) Queue
 	fsd  $8, 136($ZERO)
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$4  	$ZERO	$0  	4    
-	Load2	false	0               fld 	$3  	$ZERO	$0  	3    
+	Load1	false	-1              fld 	$4  	$ZERO	$0  	4    
+	Load2	false	-1              fld 	$3  	$ZERO	$0  	3    
 	BU1   	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -470,15 +470,15 @@ Instruction (Decode) Queue
 	fsd  $9, 140($ZERO)
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$4  	$ZERO	$0  	4    
-	Load2	false	0               fld 	$3  	$ZERO	$0  	3    
+	Load1	false	-1              fld 	$4  	$ZERO	$0  	4    
+	Load2	false	-1              fld 	$3  	$ZERO	$0  	3    
 	BU1   	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	false	0               fadd	$5  	$0  	$1  	5    
+	FPadd1	false	-1              fadd	$5  	$0  	$1  	5    
 	FPadd2	true 	1               fadd	$6  	$2  	$3  	6    
 	FPadd3	true 	3               fsub	$8  	$5  	$2  	8    
 	FPmult1	true 	2               fmul	$7  	$1  	$2  	7    
@@ -525,16 +525,16 @@ Instruction (Decode) Queue
 	fsd  $9, 140($ZERO)
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$4  	$ZERO	$0  	4    
-	Load2	false	0               fld 	$3  	$ZERO	$0  	3    
+	Load1	false	-1              fld 	$4  	$ZERO	$0  	4    
+	Load2	false	-1              fld 	$3  	$ZERO	$0  	3    
 	BU1   	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	false	0               fadd	$5  	$0  	$1  	5    
-	FPadd2	false	0               fadd	$6  	$2  	$3  	6    
+	FPadd1	false	-1              fadd	$5  	$0  	$1  	5    
+	FPadd2	false	-1              fadd	$6  	$2  	$3  	6    
 	FPadd3	true 	2               fsub	$8  	$5  	$2  	8    
 	FPmult1	true 	1               fmul	$7  	$1  	$2  	7    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
@@ -579,18 +579,18 @@ Instruction (Decode) Queue
 	fsd  $9, 140($ZERO)
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$4  	$ZERO	$0  	4    
-	Load2	false	0               fld 	$3  	$ZERO	$0  	3    
+	Load1	false	-1              fld 	$4  	$ZERO	$0  	4    
+	Load2	false	-1              fld 	$3  	$ZERO	$0  	3    
 	BU1   	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	false	0               fadd	$5  	$0  	$1  	5    
-	FPadd2	false	0               fadd	$6  	$2  	$3  	6    
+	FPadd1	false	-1              fadd	$5  	$0  	$1  	5    
+	FPadd2	false	-1              fadd	$6  	$2  	$3  	6    
 	FPadd3	true 	1               fsub	$8  	$5  	$2  	8    
-	FPmult1	false	0               fmul	$7  	$1  	$2  	7    
+	FPmult1	false	-1              fmul	$7  	$1  	$2  	7    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	true 	3               fdiv	$9  	$3  	$1  	9    
 	Store1	true 	1               fsd 	$0  	$ZERO	$7  	12   
@@ -632,18 +632,18 @@ Fetch Queue
 Instruction (Decode) Queue
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$4  	$ZERO	$0  	4    
-	Load2	false	0               fld 	$3  	$ZERO	$0  	3    
+	Load1	false	-1              fld 	$4  	$ZERO	$0  	4    
+	Load2	false	-1              fld 	$3  	$ZERO	$0  	3    
 	BU1   	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	false	0               fadd	$5  	$0  	$1  	5    
-	FPadd2	false	0               fadd	$6  	$2  	$3  	6    
-	FPadd3	false	0               fsub	$8  	$5  	$2  	8    
-	FPmult1	false	0               fmul	$7  	$1  	$2  	7    
+	FPadd1	false	-1              fadd	$5  	$0  	$1  	5    
+	FPadd2	false	-1              fadd	$6  	$2  	$3  	6    
+	FPadd3	false	-1              fsub	$8  	$5  	$2  	8    
+	FPmult1	false	-1              fmul	$7  	$1  	$2  	7    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	true 	2               fdiv	$9  	$3  	$1  	9    
 	Store1	true 	-1              fsd 	$0  	$ZERO	$9  	14   
@@ -685,22 +685,22 @@ Fetch Queue
 Instruction (Decode) Queue
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$4  	$ZERO	$0  	4    
-	Load2	false	0               fld 	$3  	$ZERO	$0  	3    
+	Load1	false	-1              fld 	$4  	$ZERO	$0  	4    
+	Load2	false	-1              fld 	$3  	$ZERO	$0  	3    
 	BU1   	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	false	0               fadd	$5  	$0  	$1  	5    
-	FPadd2	false	0               fadd	$6  	$2  	$3  	6    
-	FPadd3	false	0               fsub	$8  	$5  	$2  	8    
-	FPmult1	false	0               fmul	$7  	$1  	$2  	7    
+	FPadd1	false	-1              fadd	$5  	$0  	$1  	5    
+	FPadd2	false	-1              fadd	$6  	$2  	$3  	6    
+	FPadd3	false	-1              fsub	$8  	$5  	$2  	8    
+	FPmult1	false	-1              fmul	$7  	$1  	$2  	7    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
 	FPDiv1	true 	1               fdiv	$9  	$3  	$1  	9    
 	Store1	true 	-1              fsd 	$0  	$ZERO	$9  	14   
-	Store2	false	0               fsd 	$0  	$ZERO	$8  	13   
+	Store2	false	-1              fsd 	$0  	$ZERO	$8  	13   
 Reorder Buffer
 	HEAD:	9	TAIL:	15
 	ROB  BUSY  DEST  VALUE OP
@@ -738,22 +738,22 @@ Fetch Queue
 Instruction (Decode) Queue
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$4  	$ZERO	$0  	4    
-	Load2	false	0               fld 	$3  	$ZERO	$0  	3    
+	Load1	false	-1              fld 	$4  	$ZERO	$0  	4    
+	Load2	false	-1              fld 	$3  	$ZERO	$0  	3    
 	BU1   	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	false	0               fadd	$5  	$0  	$1  	5    
-	FPadd2	false	0               fadd	$6  	$2  	$3  	6    
-	FPadd3	false	0               fsub	$8  	$5  	$2  	8    
-	FPmult1	false	0               fmul	$7  	$1  	$2  	7    
+	FPadd1	false	-1              fadd	$5  	$0  	$1  	5    
+	FPadd2	false	-1              fadd	$6  	$2  	$3  	6    
+	FPadd3	false	-1              fsub	$8  	$5  	$2  	8    
+	FPmult1	false	-1              fmul	$7  	$1  	$2  	7    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv1	false	0               fdiv	$9  	$3  	$1  	9    
+	FPDiv1	false	-1              fdiv	$9  	$3  	$1  	9    
 	Store1	true 	1               fsd 	$0  	$ZERO	$9  	14   
-	Store2	false	0               fsd 	$0  	$ZERO	$8  	13   
+	Store2	false	-1              fsd 	$0  	$ZERO	$8  	13   
 Reorder Buffer
 	HEAD:	11	TAIL:	15
 	ROB  BUSY  DEST  VALUE OP
@@ -791,22 +791,22 @@ Fetch Queue
 Instruction (Decode) Queue
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$4  	$ZERO	$0  	4    
-	Load2	false	0               fld 	$3  	$ZERO	$0  	3    
+	Load1	false	-1              fld 	$4  	$ZERO	$0  	4    
+	Load2	false	-1              fld 	$3  	$ZERO	$0  	3    
 	BU1   	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	false	0               fadd	$5  	$0  	$1  	5    
-	FPadd2	false	0               fadd	$6  	$2  	$3  	6    
-	FPadd3	false	0               fsub	$8  	$5  	$2  	8    
-	FPmult1	false	0               fmul	$7  	$1  	$2  	7    
+	FPadd1	false	-1              fadd	$5  	$0  	$1  	5    
+	FPadd2	false	-1              fadd	$6  	$2  	$3  	6    
+	FPadd3	false	-1              fsub	$8  	$5  	$2  	8    
+	FPmult1	false	-1              fmul	$7  	$1  	$2  	7    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv1	false	0               fdiv	$9  	$3  	$1  	9    
-	Store1	false	0               fsd 	$0  	$ZERO	$9  	14   
-	Store2	false	0               fsd 	$0  	$ZERO	$8  	13   
+	FPDiv1	false	-1              fdiv	$9  	$3  	$1  	9    
+	Store1	false	-1              fsd 	$0  	$ZERO	$9  	14   
+	Store2	false	-1              fsd 	$0  	$ZERO	$8  	13   
 Reorder Buffer
 	HEAD:	13	TAIL:	15
 	ROB  BUSY  DEST  VALUE OP
@@ -844,22 +844,22 @@ Fetch Queue
 Instruction (Decode) Queue
 Reservation Station
 	Type	Busy	Remaining CC	Op    	Dest	Src1	Src2	ROB Index
-	Load1	false	0               fld 	$4  	$ZERO	$0  	4    
-	Load2	false	0               fld 	$3  	$ZERO	$0  	3    
+	Load1	false	-1              fld 	$4  	$ZERO	$0  	4    
+	Load2	false	-1              fld 	$3  	$ZERO	$0  	3    
 	BU1   	false	-1              nop 	$0  	$0  	$0  	-1   
 	BU2   	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT1	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT2	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT3	false	-1              nop 	$0  	$0  	$0  	-1   
 	INT4	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPadd1	false	0               fadd	$5  	$0  	$1  	5    
-	FPadd2	false	0               fadd	$6  	$2  	$3  	6    
-	FPadd3	false	0               fsub	$8  	$5  	$2  	8    
-	FPmult1	false	0               fmul	$7  	$1  	$2  	7    
+	FPadd1	false	-1              fadd	$5  	$0  	$1  	5    
+	FPadd2	false	-1              fadd	$6  	$2  	$3  	6    
+	FPadd3	false	-1              fsub	$8  	$5  	$2  	8    
+	FPmult1	false	-1              fmul	$7  	$1  	$2  	7    
 	FPmult2	false	-1              nop 	$0  	$0  	$0  	-1   
-	FPDiv1	false	0               fdiv	$9  	$3  	$1  	9    
-	Store1	false	0               fsd 	$0  	$ZERO	$9  	14   
-	Store2	false	0               fsd 	$0  	$ZERO	$8  	13   
+	FPDiv1	false	-1              fdiv	$9  	$3  	$1  	9    
+	Store1	false	-1              fsd 	$0  	$ZERO	$9  	14   
+	Store2	false	-1              fsd 	$0  	$ZERO	$8  	13   
 Reorder Buffer
 	HEAD:	15	TAIL:	15
 	ROB  BUSY  DEST  VALUE OP
